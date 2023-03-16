@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<style>
+		#revealContainer{
+
+			aspect-ratio: 9/18;
+			max-height: 100vh;
+			overflow: hidden;
+
+			margin: auto;
+
+		}
+
+		.reveal {
+			height: 100%;
+			width: 100%;
+		}
+
+		body {
+			height: 100vh;
+		}
+	</style>
+
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+</head>
+
+<body>
+	<div id="revealContainer">
+
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-color="#d0b766" data-color="white">Eine Erinnerung an die Klimakatastrophe
+				</section>
+				<section>
+					<section data-background-image="./assets/feld_trocken.png"></section>
+					<section data-background-image="./assets/golferin_glücklich.png"></section>
+				</section>
+				<section>
+					<section data-background-color="#d0b766" data-color="white">Das Wetter wurde jedes Jahr schlimmer.
+						Die extremen Wetter führten oft zu Ernteausfällen.</section>
+					<section data-background-color="#afff52" data-color="white">Durch besseren Umgang mit dem Wasser
+						hatten alle wieder fairen zugang. So konnten alle das Leben auch noch genießen.</section>
+				</section>
+				<section>
+					<section data-background-image="./assets/autoverkehr.png"></section>
+					<section data-background-image="./assets/öpnv.png">Hier fehlt ein Bild das guten ÖPNV und
+						fahrradverkehr zeigt</section>
+				</section>
+				<section>
+					<section data-background-color="#a86c91">In unseren Städten vergifteten Autos die Luft. Der Lärm und
+						Feinstaub machte die Menschen krank.</section>
+					<section data-background-color="#afff52">Durch besseren ÖPNV konnten wir die Luft in den Städten
+						verbessern. Unsere Städte wurden dadurch gesünder und lebenswerter</section>
+				</section>
+				<section>
+					<section>Bild:Ölplattform</section>
+					<section>Bild:Offshore windanlage</section>
+				</section>
+				<section>
+					<section data-background-color="#a86c91">Wir beuteten die fossilen Ressourcen unseres Planeten aus,
+						auch wenn wir wussten das zusätzliches CO2 uns weiter schaden wird.</section>
+					<section data-background-color="#afff52">Durch nachwachsende Rohstoffe und Energien konnten wir den
+						Ausstoß weiterer Treibhausgase verringern.</section>
+				</section>
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+	<script src="dist/reveal.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+
+			width: 700,
+			height: 960,
+
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+
+			backgroundColor: "d07642",
+			embedded: true
+		});
+	Reveal.layout()
+	</script>
+</body>
+
+</html>
